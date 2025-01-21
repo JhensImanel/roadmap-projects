@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description content="Single Page CV" />
+    <meta
+      name="keywords"
+      content="Frontend Developer, HTML, CSS, JavaScript, CV, Resume"
+    />
+    <meta name="author" content="Jhens Imanel" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <p>Jhens Imanel</p>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#articles">Articles</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <h1>Frontend Developer</h1>
+        <span>html only with proper layout, no styling</span>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Projects</th>
+              <th>Work Experience</th>
+              <th>Education</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <ul>
+                  <li>HTML Only Portfolio</li>
+                  <li>Calculator</li>
+                  <li>Quiz App</li>
+                  <li>Countdown Timer</li>
+                  <li>Product Upcoming Page</li>
+                </ul>
+              </td>
+              <td>
+                <h3>roadmap.sh</h3>
+                <ul>
+                  <li>Solved all the frontend projects</li>
+                </ul>
+                <a href="#">Visit my profile</a>
+                <h3>OpenSource Work</h3>
+                <ul>
+                  <li>Contributed to 50 opensource projects</li>
+                  <li>Made my own projects with 200 GitHub Stars</li>
+                </ul>
+                <a href="#">Visit my GitHub Profile</a>
+              </td>
+              <td>
+                <p>
+                  Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon.
+                  Organized 30 sessions.
+                </p>
+                <p>Courses I took:</p>
+                <ul>
+                  <li>Object Oriented Programming</li>
+                  <li>Data Structures and Algorithms</li>
+                  <li>Web Engineering</li>
+                  <li>Artificial Intelligence</li>
+                  <li>Human Computer Interaction</li>
+                  <li>Computer Graphics</li>
+                  <li>Database Management Systems</li>
+                  <li>Distributed Database Systems</li>
+                  <li>Discrete Mathematics</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="articles">
+        <h2>Reviews from my Teachers</h2>
+        <div>
+          <article>
+            John Doe was a brilliant student; always stood out with his
+            assignments.
+            <div>Jane Doe</div>
+            <div>Assistant Professor</div>
+          </article>
+        </div>
+        <div>
+          <article>
+            John Doe was a brilliant student; always stood out with his
+            assignments.
+            <div>Jane Doe</div>
+            <div>Assistant Professor</div>
+          </article>
+        </div>
+        <div>
+          <article>
+            John Doe was a brilliant student; always stood out with his
+            assignments.
+            <div>Jane Doe</div>
+            <div>Assistant Professor</div>
+          </article>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact me</h2>
+        <form action="/submit" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required /><br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required /><br />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="1" required></textarea
+          ><br />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>&copy; all rights reserved 2025</footer>
+  </body>
+</html>
