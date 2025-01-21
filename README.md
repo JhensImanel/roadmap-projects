@@ -1,1 +1,1 @@
-# This is the challenge roadmap for the beginners full-stack developer 2025
+# This is the roadmap for the beginners full-stack developer 2025
